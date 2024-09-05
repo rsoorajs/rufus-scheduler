@@ -31,8 +31,7 @@ Job scheduler for Ruby (at, cron, in and every jobs). Not a replacement for cron
 
   #s.files = `git ls-files`.split("\n")
   s.files = Dir[
-    'README.{md,txt}',
-    'CHANGELOG.{md,txt}', 'CREDITS.{md,txt}', 'LICENSE.{md,txt}',
+    '{README,CHANGELOG,CREDITS,LICENSE}.{md,txt}',
     'Makefile',
     'lib/**/*.rb', #'spec/**/*.rb', 'test/**/*.rb',
     "#{s.name}.gemspec",
@@ -40,7 +39,7 @@ Job scheduler for Ruby (at, cron, in and every jobs). Not a replacement for cron
 
   s.required_ruby_version = '>= 1.9'
 
-  s.add_runtime_dependency 'fugit', '~> 1.1', '>= 1.10.1'
+  s.add_runtime_dependency 'fugit', '~> 1.1', '>= 1.11.1'
 
   s.add_development_dependency 'rspec', '~> 3.7'
   s.add_development_dependency 'chronic', '~> 0.10'
