@@ -79,6 +79,7 @@ Please note: rufus-scheduler is not a cron replacement.
 
 * [ruby-clock](https://github.com/jjb/ruby-clock) - a clock process / job scheduler for Ruby
 * [Puma-Rufus-Scheduler](https://github.com/javierav/puma-rufus-scheduler) - Puma plugin to run Rufus-Scheduler
+* [Schked](https://github.com/bibendi/schked) - Framework agnostic Rufus-Scheduler wrapper to run recurring jobs
 
 
 ## similar gems
